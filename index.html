@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Theme Switcher - Tech Stack Overview</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light">
+  <main class="container">
+    <h1>⚙️ Theme Switcher</h1>
+
+    <section class="theme-selector" aria-label="Theme Options">
+      <button class="theme-btn light-btn active" data-theme="light" aria-current="true">☀️ Light</button>
+      <button class="theme-btn dark-btn" data-theme="dark">🌙 Dark</button>
+      <button class="theme-btn colorful-btn" data-theme="colorful">🌈 Colorful</button>
+      <button class="theme-btn neon-btn" data-theme="neon">⚡ Neon</button>
+    </section>
+
+    <div class="current-theme" id="currentTheme">
+      Current Theme: Light
+    </div>
+
+    <section class="content-section">
+      <h2>Modern Web Technologies</h2>
+      <p>This theme switcher app introduces popular web development technologies:</p>
+      <ul>
+        <li><strong>React:</strong> A JavaScript library for building reusable, component-based user interfaces.</li>
+        <li><strong>Components:</strong> The  blocks of React applications, used to structure UIs efficiently.</li>
+        <li><strong>Props & State:</strong> passing data and managing dynamic content in components.</li>
+        <li><strong>Node.js:</strong> A JavaScript runtime that allows server-side development using JavaScript.</li>
+        <li><strong>Express.js:</strong> A minimalist Node.js framework for building web APIs and backends.</li>
+        <li><strong>APIs:</strong> Interfaces for sending/receiving data between the frontend and backend.</li>
+        <li><strong>NPM:</strong> Node Package Manager, used to install libraries and manage dependencies.</li>
+      </ul>
+    </section>
+
+    <section class="feature-grid">
+      <div class="feature-card">
+        <h3>React-Based UI</h3>
+        <p>Built using component-driven design for fast rendering and maintenance.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Node.js Backend</h3>
+        <p>Handles server-side logic, API routes, and data operations.</p>
+      </div>
+      <div class="feature-card">
+        <h3>REST API</h3>
+        <p>Connects frontend and backend to exchange data seamlessly using HTTP methods.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Scalable</h3>
+        <p>Easily extendable with additional features, microservices, or third-party APIs.</p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2>How It All Connects</h2>
+      <ol>
+        <li><strong>Frontend (React):</strong> Handles user interface and interactions.</li>
+        <li><strong>Backend (Node.js & Express):</strong> Manages APIs and business logic.</li>
+        <li><strong>Database (Optional):</strong> Stores persistent data (e.g., MongoDB or PostgreSQL).</li>
+        <li><strong>API Communication:</strong> React fetches or sends data to the backend via APIs.</li>
+        <li><strong>Deployment:</strong> Apps can be hosted on services like Vercel, Netlify, or Heroku.</li>
+      </ol>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
